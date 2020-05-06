@@ -1,16 +1,11 @@
 <?php
 
     $to = "xuandapa@gmail.com";
-    // $from = $_REQUEST['email'];
-    // $name = $_REQUEST['name'];
-    // $subject = $_REQUEST['subject'];
-    // $number = $_REQUEST['number'];
-    // $cmessage = $_REQUEST['message'];
-    $from = $_POST['email'];
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $number = $_POST['number'];
-    $cmessage = $_POST['message'];
+    $from = $_REQUEST['email'];
+    $name = $_REQUEST['name'];
+    $subject = $_REQUEST['subject'];
+    $number = $_REQUEST['number'];
+    $cmessage = $_REQUEST['message'];
 
 
     $headers = "From: $from";
